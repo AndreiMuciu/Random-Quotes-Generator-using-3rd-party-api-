@@ -1,0 +1,3 @@
+1. vreau ca userul sa poata selecta o categorie de quoteuri.
+2. vreau ca atunci cand apas pe un buton sa mi se afiseze pe ecran quoteul impreuna cu autorul lui la intamplare din eventuala categorie selectata.
+3. daca nu selectez nicio categorie vreau sa imi apara un quote random din oricare categorie.
