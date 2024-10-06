@@ -35,8 +35,8 @@ const displayQuote = async function (e) {
     authorPlace.textContent = data.author;
     return;
   }
-  const url = apiURL + `/${category}`;
-  const data = await fetchQuote(apiURL);
+  const url = apiURL + `?category=${category}`;
+  const data = await fetchQuote(url);
   quotePlace.textContent = data.quote;
   authorPlace.textContent = data.author;
 };
